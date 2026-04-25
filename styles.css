@@ -321,19 +321,13 @@ h3 {
 }
 
 .app-icon {
+  display: block;
   width: 52px;
   height: 52px;
   border-radius: 16px;
-  font-size: 1.25rem;
+  background: white;
+  object-fit: cover;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.34);
-}
-
-.ember-icon {
-  background: linear-gradient(135deg, #c63f2c, #ecab37);
-}
-
-.glow-icon {
-  background: linear-gradient(135deg, #1f806b, #d66d8f);
 }
 
 .stats-band {
