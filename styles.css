@@ -419,6 +419,12 @@ h3 {
   font-size: 1.02rem;
 }
 
+.app-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+
 .app-card a {
   display: inline-flex;
   min-height: 42px;
