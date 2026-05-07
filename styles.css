@@ -403,7 +403,7 @@ h3 {
 
 .app-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -459,7 +459,7 @@ h3 {
 
 .policy-app-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -586,6 +586,13 @@ h3 {
   color: var(--forest);
   font-weight: 850;
   text-decoration: none;
+}
+
+@media (max-width: 1040px) {
+  .app-grid,
+  .policy-app-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 840px) {

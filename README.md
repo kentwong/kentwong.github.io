@@ -9,3 +9,5 @@ Static GitHub Pages site for Fate Studio, hosted at `fatestudio.app`.
 - Ember FIRE Terms of Use: `/terms/ember-fire.html`
 - GlowUp Gym Privacy Policy: `/privacy/glowup-gym.html`
 - GlowUp Gym Terms of Use: `/terms/glowup-gym.html`
+- SpineFlow Privacy Policy: `/privacy/spineflow.html`
+- SpineFlow Terms of Use: `/terms/spineflow.html`
