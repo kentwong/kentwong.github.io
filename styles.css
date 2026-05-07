@@ -346,6 +346,11 @@ h3 {
   bottom: 44px;
 }
 
+.floating-card.spine {
+  left: 28px;
+  bottom: 8px;
+}
+
 .app-icon {
   display: block;
   width: 52px;
@@ -672,7 +677,7 @@ h3 {
   }
 
   .studio-panel {
-    min-height: 470px;
+    min-height: 540px;
     padding: 14px;
   }
 
@@ -685,7 +690,7 @@ h3 {
   }
 
   .device-preview {
-    min-height: 284px;
+    min-height: 350px;
   }
 
   .phone-shell {
@@ -720,6 +725,11 @@ h3 {
   .floating-card.glow {
     right: 8px;
     bottom: 0;
+  }
+
+  .floating-card.spine {
+    left: 0;
+    bottom: 78px;
   }
 
   .section {
